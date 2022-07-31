@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
-public class FirstServiceController {
+public class SecondServiceController {
     @GetMapping("/welcome")
     public String welcome(){
-        return "welcome to the first service";
+        return "welcome to the second service";
     }
 }
